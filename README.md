@@ -33,8 +33,8 @@ A futuristic, high-performance developer portfolio built with **React + Vite**, 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/next-gen-portfolio.git
-cd next-gen-portfolio
+git clone https://github.com/Abhishek-DS-ML-Gupta/NextGenPortfolio.git
+cd NextGenPortfolio
 ```
 
 Install dependencies:
