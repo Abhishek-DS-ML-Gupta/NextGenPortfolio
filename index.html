@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vinit Ghanekar Portfolio made by Abhishek Gupta</title>
+  <meta
+        name="description"
+        content="WebGPU dual-scene fluid reveal with TSL post-processing" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Codrops" />
+  <link rel="icon" type="image/svg+xml" href="/vinu-favicon.svg" />
+  <link rel="shortcut icon" href="/vinu-favicon.svg" />
+  <script>
+    document.documentElement.className = "js";
+  </script>
+</head>
+
+<body class="loading">
+  <!-- Preloader Overlay -->
+  <div id="preloaderBlack" class="fixed inset-0 bg-black z-[10000] flex flex-col items-center justify-center">
+    <div class="w-full max-w-md h-[1px] bg-gray-800 relative overflow-hidden">
+      <div id="line" class="absolute top-0 left-0 h-full bg-white w-0"></div>
+    </div>
+    <button id="preloaderEnterButton" class="mt-8 px-8 py-3 border border-white/30 text-white opacity-0 pointer-events-none transition-all duration-500 tracking-[0.3em] uppercase text-xs hover:bg-white hover:text-black [&.is-active]:opacity-100 [&.is-active]:pointer-events-auto">
+      Enter Experience
+    </button>
+  </div>
+
+  <div id="react-header"></div>
+
+  <main>
+    <div id="app"></div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script type="module" src="./src/react-entry.tsx"></script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
